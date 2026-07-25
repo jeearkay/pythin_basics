@@ -1,0 +1,6 @@
+{
+  "name": "Guna's Python Master Quest",
+  "description": "An interactive Bhutanese Python learning quest featuring 11 levels, 110 interactive challenges, live WebAssembly Python execution, and beginner-friendly quest maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
