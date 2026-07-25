@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 import { Trophy, Award, Flame, Sparkles, RotateCcw } from 'lucide-react';
 import { UserState } from '../types';
-import logo from '/logo.png';
+import logo from '@/public/logo.png';
 
 interface CompletionProps {
   state: UserState;
@@ -41,13 +41,11 @@ export const CompletionScreen: React.FC<CompletionProps> = ({ state, onRestart }
   return (
     <div className="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-lg flex items-center justify-center p-4 animate-fadeIn">
       <div className="max-w-xl w-full bg-white border border-slate-200 rounded-3xl p-8 text-center shadow-2xl flex flex-col items-center gap-6">
-        <div className="w-24 h-24 rounded-2xl bg-indigo-600 border-2 border-indigo-500 flex items-center justify-center overflow-hidden shadow-md">
-          <img
-            src={logo}
-            alt="Karma Academy Logo"
-            className="w-full h-full object-cover"
-          />
-        </div>
+        <img
+          src={logo}
+          alt="Karma Academy Logo"
+          className="w-24 h-24"
+        />
 
         <div className="flex flex-col gap-2">
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">

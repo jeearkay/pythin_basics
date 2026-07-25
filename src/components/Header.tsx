@@ -1,7 +1,7 @@
 import React from 'react';
 import { Sparkles, Flame, Terminal, BookOpen, RotateCcw, Volume2, VolumeX } from 'lucide-react';
-import logo from '/logo.png';
 import { UserState } from '../types';
+import logo from '@/public/logo.png';
 
 interface HeaderProps {
   state: UserState;
@@ -22,13 +22,11 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="sticky top-0 z-40 px-6 py-3 bg-white/90 backdrop-blur-md border-b border-slate-200 flex items-center justify-between gap-4 shadow-xs">
       {/* Brand */}
       <div className="flex items-center gap-3">
-        <div className="w-9 h-9 rounded-xl bg-indigo-600 border border-indigo-500 flex items-center justify-center overflow-hidden shadow-xs text-white font-bold text-lg shrink-0">
-          <img
-            src={logo}
-            alt="Karma Academy Logo"
-            className="w-full h-full object-cover"
-          />
-        </div>
+        <img
+          src={logo}
+          alt="Karma Academy Logo"
+          className="w-9 h-9 shrink-0"
+        />
         <div className="hidden sm:flex flex-col">
           <div className="flex items-center gap-2">
             <span className="font-bold text-slate-900 text-base tracking-tight leading-none">
