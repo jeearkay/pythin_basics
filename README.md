@@ -27,6 +27,6 @@ The application is built with React and TypeScript, and it uses Pyodide to run P
 2.  Run the development server:
    `npm run dev`
 
-3.  Open your browser and navigate to `http://localhost:5173` (or the address provided in your terminal).
+3.  Open your browser and navigate to `http://localhost:3000` (or the address provided in your terminal).
 
 > **Note:** This project does not require a `GEMINI_API_KEY` to run locally as all Python execution is handled client-side by Pyodide.
