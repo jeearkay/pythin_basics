@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({
         <img
           src={logo}
           alt="Karma Academy Logo"
-          className="w-9 h-9 shrink-0"
+          className="w-9 h-9 shrink-0 grayscale opacity-80"
         />
         <div className="hidden sm:flex flex-col">
           <div className="flex items-center gap-2">

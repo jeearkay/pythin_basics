@@ -44,7 +44,7 @@ export const CompletionScreen: React.FC<CompletionProps> = ({ state, onRestart }
         <img
           src={logo}
           alt="Karma Academy Logo"
-          className="w-24 h-24"
+          className="w-24 h-24 grayscale opacity-80"
         />
 
         <div className="flex flex-col gap-2">

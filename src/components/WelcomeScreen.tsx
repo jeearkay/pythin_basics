@@ -14,7 +14,7 @@ export const WelcomeScreen: React.FC<WelcomeProps> = ({ onStart, onOpenGuide }) 
         <img
           src={logo}
           alt="Karma Academy Logo"
-          className="w-24 h-24 mb-4 animate-bounce-slow"
+          className="w-24 h-24 mb-4 animate-bounce-slow grayscale opacity-80"
         />
 
         {/* Eyebrow */}
