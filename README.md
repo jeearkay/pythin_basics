@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="Guna's Master Quest Logo" width="150" />
+  <img src="./public/logo.png" alt="Guna's Master Quest Logo" width="150" />
   <h1>Guna's Master Quest: A Python Adventure</h1>
   <p>A gamified, story-driven web application for learning the fundamentals of Python, set in the mystical Kingdom of Bhutan.</p>
   <p>
