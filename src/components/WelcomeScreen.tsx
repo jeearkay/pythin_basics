@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, Terminal, BookOpen, Play, Shield, Award } from 'lucide-react';
+import logo from '/logo.png';
 
 interface WelcomeProps {
   onStart: () => void;
@@ -13,7 +14,7 @@ export const WelcomeScreen: React.FC<WelcomeProps> = ({ onStart, onOpenGuide }) 
         {/* Logo Mark */}
         <div className="w-24 h-24 mb-4 rounded-2xl bg-indigo-600 border-2 border-indigo-500 flex items-center justify-center overflow-hidden shadow-md animate-bounce-slow">
           <img
-            src="/logo.png"
+            src={logo}
             alt="Karma Academy Logo"
             className="w-full h-full object-cover"
           />
